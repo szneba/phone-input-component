@@ -6,7 +6,7 @@
         <md-input v-model="countryCode" v-on:keypress="validateCode"></md-input>
       </md-field>
       <md-field class="md-layout-item">
-        <label>Phone Number:</label>
+        <label>Your Phone Number:</label>
         <md-input v-model="phoneNumber" v-on:keypress="validatePhoneNumber"></md-input>
       </md-field>
     </div>
